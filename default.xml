@@ -1,0 +1,21 @@
+<?xml version=".0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="rwpa"
+	  fetch="ssh://git@github.com" />
+
+
+  <default revision="master"
+           remote="rwpa"
+           sync-j="4" />
+
+
+  <!-- Intel RWPA: -->
+  <project path="intel/cloudwpa-ap"		name="intel/cloudwpa-ap" />
+  <project path="intel/cloudwpa-hostapd"	name="intel/cloudwpa-hostapd" />
+  <project path="intel/cloudwpa-pf_init"	name="intel/cloudwpa-pf_init" />
+  <project path="intel/cloudwpa-rwpa_dp"	name="intel/cloudwpa-rwpa_dp" />
+  <project path="intel/cloudwpa-scripts"	name="intel/cloudwpa-scripts" />
+  <project path="intel/cloudwpa-sim"		name="intel/cloudwpa-sim" />
+
+</manifest>
